@@ -1,0 +1,52 @@
+body{
+	color : #444444 ;
+	font-family :"Arial", "sans-serif";
+	text-align : "left";
+	font-size : 1em;
+	width : 980px;
+	margin-left : auto;
+	margin-right : auto;
+}
+h1{
+	text-transform : uppercase;
+	font-size : 2.4em;
+	padding : 0px 20px;
+	border-left : 30px solid #999;
+	border-right : 510px solid #999;
+}
+h2{
+	color : #bbbbbb ;
+	text-transform : capitalize;
+	font-size : 2.4em;
+	font-style : italic;
+	padding-left : 55px;
+}
+h3{
+	color : #aaaaaa ;
+	text-transform : small-caps;
+	font-size : 1.6em;
+	border : 1px dotted #aaaaaa;
+	margin-left : 60px;
+}
+p{
+	text-indent : 20px;
+}
+p.premierspar{
+	background-color : #555555;
+	color : #eeeeee;
+	padding : 5px 15px;
+	margin : 5px 10px 5px 55px;
+}
+p.premierspar1{
+	padding : 8px 15px
+}
+p.premierspar234{
+	padding : 5px 15px
+}
+html{
+/*	background-image : url('../images/tour-eiffel.jpg');
+	background-repeat : no-repeat;
+	background-position : 100% 100%;
+	background-attachment : fixed;*/
+	background : url('../images/tour-eiffel.jpg') no-repeat 100% 100% fixed;
+}

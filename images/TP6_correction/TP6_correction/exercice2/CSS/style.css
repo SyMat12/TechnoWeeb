@@ -1,0 +1,110 @@
+html {
+    background-image: radial-gradient(circle at center, #ccc, #fff); 
+}
+
+body {
+    
+    font-family: Arial;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.5em;
+    background-color: white;
+    box-shadow: 1px 1px 12px #999;
+    width: 62vw;
+    margin: auto;
+    padding: 2vmin;
+    
+    
+}
+
+#menutop{
+    display: flex;    
+}
+
+nav{
+    background: linear-gradient(#fbfbfb, #ebebeb);
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+    border-right: #e0e0e0;
+    border-width: 1px;
+    text-align: center;
+    flex:1;
+}
+
+nav a {
+    color: #c1c1c1;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-decoration: none;
+    margin: 0.3em;
+    text-shadow: 1px 1px 1px #333; 
+}
+
+nav a:hover {
+    color: purple;
+}
+
+
+a{
+    transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-
+    
+}
+
+footer{
+    background-color: #666;
+    color: white;
+    padding: 20px;
+}
+
+footer img{
+    border-radius: 50%;
+	width : 13vw;
+}
+
+footer div {
+    display: flex;
+    
+}
+
+
+section div{ 
+    display: flex;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    text-align: center;
+}
+
+section figcaption {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+    
+}
+
+section figure {
+    height: 200px;
+    overflow: hidden;
+}
+
+section figure:hover {
+    transform: translate(0px, -30px);
+    overflow: visible;
+    transition: 1s;
+}
+
+section img {
+    height: 200px;
+}
