@@ -95,7 +95,7 @@ iframe {
 
 .cadre-blanc2{
     background:transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     padding: 10px;
     margin-top: 150px;
     margin-bottom: 30px;
@@ -108,4 +108,35 @@ iframe {
 
 .cadre-blanc2 h5{
     margin-top: 12px;
+}
+
+
+
+@media (max-width: 768px) {
+    .cadre-blanc {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .conteneur-cadres-donne {
+        margin-left: 0;
+        width: 100%;
+    }
+    .cadre-donne {
+        width: 100%;
+    }
+    .cadre-localisation {
+    
+        margin-left:0;
+        color : #c1c1c1;
+    }
+    iframe {
+        border-radius: 10px;
+        padding-top: 20px;
+        height: 386px;
+        width: 386px;
+    }
+    .cadre-blanc2{
+        margin-left: -60px;
+    }
+
 }

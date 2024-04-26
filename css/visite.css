@@ -116,20 +116,10 @@ main h1 {
     color: #c1c1c1;
 }
 
-@media (max-width: 768px) {
-    .timeline-item {
-        flex-direction: column;
-        text-align: center;
-    }
-    .timeline-item::before {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
 
 .timeline-content:hover{
 
-    line-height: 20px;
+    
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
     box-shadow: 5px 5px 5px #333;
@@ -143,4 +133,19 @@ main h1 {
 
 h1:hover{
     color:red;
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        margin-left: 5%; 
+        width: 90%; 
+    }
+    .timeline-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .timeline-item::before {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }

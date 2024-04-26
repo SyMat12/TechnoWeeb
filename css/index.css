@@ -25,20 +25,21 @@ body{
 }
 
 .conteneur-cadres-com {
-    background-color: white;
+    background-color: rgba(255,255,255,0.5);
     display: flex;
     flex-wrap: wrap;
     margin-top:200px;
     margin-bottom: 30px;
-    margin-left:1%;
+
     gap: 15px;
-    width:calc(100% - 2%);
+
     border-radius: 5px;
+
 }
 
 .cadre-blanc{
     background-color: #dbdbdb;
-    margin: 30px;
+    margin: 35px;
     padding: 10px;
     text-align: center;
     color: #fff;
@@ -121,4 +122,18 @@ body{
 .cadre-blanc2:hover p{
     transition: 2s;
     opacity: 1 ;
+}
+
+@media screen and (max-width: 768px) {
+    .conteneur-cadres {
+        margin-left: 6%;
+    }
+    .cadre-blanc {
+        max-width: calc(100% - 60px);
+    }
+    .cadre-blanc2 img {
+
+        object-fit: cover;
+    
+    }
 }
