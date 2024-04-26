@@ -112,31 +112,37 @@ iframe {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
+
     .cadre-blanc {
-        margin-left: 0;
-        max-width: 100%;
+        margin-left: 100px;
+        width: calc(100% - 0px);
+        height: auto;
     }
     .conteneur-cadres-donne {
         margin-left: 0;
         width: 100%;
+        
     }
     .cadre-donne {
-        width: 100%;
+        width: calc(100% - 60px);
+        margin: 20px 30px;
+        height: auto;
     }
     .cadre-localisation {
-    
-        margin-left:0;
-        color : #c1c1c1;
+        
+        margin-left: 40px;
+        margin-right: 40px;
     }
     iframe {
-        border-radius: 10px;
-        padding-top: 20px;
-        height: 386px;
-        width: 386px;
+
+        height: 400px;
+        width: calc(100% - 60px);
     }
-    .cadre-blanc2{
+    .cadre-blanc2 {
         margin-left: -60px;
     }
-
+    .cadre-donne {
+        height: auto;
+    }
 }

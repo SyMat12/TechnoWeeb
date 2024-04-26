@@ -125,7 +125,7 @@ body{
     opacity: 1 ;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
     .conteneur-cadres {
         margin-left: 6%;
     }
@@ -136,5 +136,8 @@ body{
 
         object-fit: cover;
     
+    }
+    .cadre-blanc2 {
+        margin-left: 180px;
     }
 }
