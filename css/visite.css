@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 
 main h1 {
@@ -26,6 +27,7 @@ main h1 {
     border-radius: 15px;
     text-shadow: 1px 1px 1px #333;
     box-shadow: 5px 5px 5px #333;
+    
 }
 
 .container {

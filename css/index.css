@@ -1,17 +1,13 @@
-body{
+body {
     background-image: url("../images/Rodez_img1.jpg");
     margin: 0;
     padding: 0;
-    left: 0;
-    right:0;
-    top:0;
-    overflow-x :hidden;
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
-.cadre-blanc p{
+.cadre-blanc p {
     font-weight: bold;
     color: black;
 }
@@ -20,25 +16,20 @@ body{
     max-width: 75px;
     border-radius: 90px;
     margin-top: 10px;
-    
-    
 }
 
 .conteneur-cadres-com {
-    background:transparent;
+    background: transparent;
     backdrop-filter: blur(5px);
     display: flex;
     flex-wrap: wrap;
-    margin-top:200px;
+    margin-top: 200px;
     margin-bottom: 30px;
-
     gap: 15px;
-
     border-radius: 5px;
-
 }
 
-.cadre-blanc{
+.cadre-blanc {
     background-color: #dbdbdb;
     margin: 35px;
     padding: 10px;
@@ -47,88 +38,79 @@ body{
     border: 1px solid #f89494;
     border-radius: 10px;
     max-width: 300px;
-
-
 }
 
 .cadre-blanc h5 {
-    color : black;
+    color: black;
     font-weight: bold;
 }
 
 .conteneur-cadres {
     display: flex;
-    margin-top:200px;
+    margin-top: 200px;
     margin-bottom: 30px;
     margin-left: 20%;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-
 .cadre-blanc2 {
-
     overflow: hidden;
     background-color: #6e6e6e;
     margin: 30px;
     border: 1px solid #f89494;
     border-radius: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     max-width: 300px;
-    height:220px;
-    text-align: center; 
-    color : #c1c1c1;
-    font-size:  20px;
+    height: 220px;
+    text-align: center;
+    color: #c1c1c1;
+    font-size: 20px;
     line-height: 20px;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
     position: relative;
     word-wrap: break-word;
-
 }
 
 .cadre-blanc2 img {
-
     margin: auto;
     width: 100%;
     border-radius: 20px;
-
 }
 
 .cadre-blanc2 p {
-    color: white; 
-    text-align: center; 
-    opacity: 0; 
-    margin-top : -130px;
-    margin-left : 5px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    margin-top: -130px;
+    margin-left: 5px;
     word-wrap: break-word;
-    
 }
 
-.cadre-blanc2:hover{
-    color : red;
-    font-size:  20px;
+.cadre-blanc2:hover {
+    color: red;
+    font-size: 20px;
     line-height: 20px;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
     box-shadow: 5px 5px 5px #333;
-    
 }
 
-.cadre-blanc2:hover img{
+.cadre-blanc2:hover img {
     opacity: 50%;
     background-color: #333;
 }
 
-.cadre-blanc2:hover p{
+.cadre-blanc2:hover p {
     transition: 2s;
-    opacity: 1 ;
+    opacity: 1;
 }
 
 @media (max-width: 750px) {
     .conteneur-cadres {
         margin-left: 6%;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
     .cadre-blanc {
         max-width: calc(100% - 60px);
@@ -138,6 +120,5 @@ body{
     }
     .cadre-blanc2 {
         margin-left: 180px;
-        flex-direction: column; /* Ajout de flex-direction: column; */
     }
 }
