@@ -1,0 +1,164 @@
+body * {
+    transition: 0.5s;
+}
+
+header{
+    background-color: black;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left:0;
+    right:0;
+    top:0;
+    
+    
+}
+
+h1 img{
+    width: 300px;
+    padding: 20px;
+}
+
+header nav{
+    flex: 1;
+}
+
+nav{
+    display: flex;
+    flex:7;
+    align-items: center;
+    justify-content: end;
+    margin : 0;
+    padding : 10px;
+    list-style-type: none;
+}
+
+
+.pages{
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+li{
+    list-style-type: none;
+    border-right: (#e0e0e0);
+    border-width: 1px;
+    text-align: center;
+    flex: 1;
+    
+    
+}
+
+li:not(:last-child) {
+    border-right: 1px solid #999;
+}
+
+footer{
+    flex :1;
+    background-color: #333;
+    color:#c1c1c1;
+    flex-shrink: 0;
+    display: flex;
+}
+
+footer img{
+    max-width: 50px;
+}
+
+footer div{
+    padding-left: 82%;
+}
+
+
+@media(max-width:750px){
+    ul{
+        flex-direction: column;
+    }
+    .nav-open, .nav-close {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: #ff9000;
+    text-decoration: none;
+    font-size: 2em;
+    }
+
+    .nav-open{
+        display: block;
+    }
+
+    .nav-close{
+        display: none;
+    }
+
+     #contenu:target .nav-close{
+        display: block;
+    }
+
+    #contenu:target .nav-open{
+        display: none;
+    }
+
+    ul{
+        flex-direction: column;
+        position : absolute;
+        right: -300px;
+        background-color: rgba(0, 0, 0, 0.8) ;
+    }
+
+    #contenu:target ul{
+        right: 0px;
+        top: 60px;
+        width: 100%;
+
+        text-align: center;
+        align-content: center;     
+    }
+
+    div{
+        flex-direction: column;
+    }
+ 
+
+  
+}
+
+
+.nav-open{
+    display: none;
+}
+
+.nav-close{
+    display: none;
+}
+
+i{
+    display: none;
+}
+
+nav a {
+    color : #c1c1c1;
+    font-size:  20px;
+    line-height: 30px;
+    text-decoration: none;
+    margin : 0.3em;
+    text-shadow: 1px 1px 1px #333;
+}
+
+nav a:hover{
+    color: red;
+}
+
+
+a{
+    transition-property: color;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}

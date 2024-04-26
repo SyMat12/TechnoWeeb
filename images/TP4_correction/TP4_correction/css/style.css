@@ -1,0 +1,117 @@
+body{
+	background-color : #C5C5C5;
+	width : 900px;
+	text-align : center;
+	padding : 30px 30px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+
+
+header{
+	position : relative;
+	height : 200px;
+    background-image : url('../images/bg_header.jpg');
+}
+
+header h1{
+	position : absolute;
+	left : 550px;
+	top : 100px;
+	height : 50px;
+	width : 300px;
+    text-transform : uppercase;
+	color : red;
+	background-color : white;
+	text-align : center;
+	/* correction fonctionne maintenant  nouvelles normes css3 */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+	position : absolute;
+	left : 20px;
+	top : 20px;
+}
+
+@font-face {
+	font-family : "Inconsolata";
+	src : url("../Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf");
+}
+
+section{
+	background-color : white;
+	padding : 20px;
+    font-family: 'Inconsolata', monospace;
+	font-size : 18px;
+}
+
+section h1{
+    text-transform : uppercase;
+	color : red;
+	text-align : left;
+}
+
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+
+.telecharger{
+	width : 40px;
+	height : 40px;
+	vertical-align : middle; 
+}
+
+p{
+	text-align : left;
+}
+
+footer{
+	height : 80px;
+	line-height : 20px;
+	background-color : white;
+	border-top : 2px solid #AAA;
+	/* correction fonctionne maintenant  nouvelles normes css3 */
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	background-color: black;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+    font-weight: bold;
+    border-left: 3px solid;
+    border-color: white;
+}
+
+.table{
+	display: table;
+	margin: auto;
+}

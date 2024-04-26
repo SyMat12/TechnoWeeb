@@ -1,0 +1,146 @@
+body{
+    background-image: url("../images/VisiteGuidée.jpg");
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right:0;
+    top:0;
+    overflow-x :hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main h1 {
+    margin-left: 40%;
+    width: 500px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+    background-color: #555;
+    color: #c1c1c1;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: #555;
+    border-radius: 15px;
+    text-shadow: 1px 1px 1px #333;
+    box-shadow: 5px 5px 5px #333;
+}
+
+.container {
+    max-width: 800px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer le contenu */
+    
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.timeline-item::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+
+}
+
+.timeline-item1::before {
+    background-image: url(../images/timeline1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline-item2::before {
+    background-image: url(../images/timeline2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline-item3::before {
+    background-image: url(../images/timeline3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline-item4::before {
+    background-image: url(../images/timeline4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline-item5::before {
+    background-image: url(../images/timeline5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.timeline-item6::before {
+    background-image: url(../images/timeline6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.timeline-content {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    background-color: #555;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    color: #c1c1c1;
+}
+
+.timeline-content p {
+    margin: 10px 0;
+    color: #c1c1c1;
+}
+
+@media (max-width: 768px) {
+    .timeline-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .timeline-item::before {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.timeline-content:hover{
+
+    line-height: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+    box-shadow: 5px 5px 5px #333;
+    
+}
+
+.timeline-content:hover h3{
+    color : red;
+}
+
+
+h1:hover{
+    color:red;
+}
