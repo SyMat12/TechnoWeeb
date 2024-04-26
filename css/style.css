@@ -77,9 +77,9 @@ footer div {
     margin-left: auto;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 750px) {
     header {
-        flex-direction: column;
+        flex-direction: column; /* Ajout de flex-direction: column; */
         align-items: center;
     }
 
@@ -89,7 +89,7 @@ footer div {
     }
 
     nav {
-        flex-direction: column;
+        flex-direction: column; /* Ajout de flex-direction: column; */
         align-items: center;
     }
 
@@ -109,6 +109,7 @@ footer div {
         margin-left: 0;
     }
 }
+
 
 .nav-open {
     display: none;

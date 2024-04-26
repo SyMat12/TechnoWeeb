@@ -113,29 +113,29 @@ iframe {
 
 
 @media (max-width: 750px) {
-
     .cadre-blanc {
         margin-left: 100px;
         width: calc(100% - 0px);
         height: auto;
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
     .conteneur-cadres-donne {
         margin-left: 0;
         width: 100%;
-        
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
     .cadre-donne {
         width: calc(100% - 60px);
         margin: 20px 30px;
         height: auto;
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
     .cadre-localisation {
-        
         margin-left: 40px;
         margin-right: 40px;
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
     iframe {
-
         height: 400px;
         width: calc(100% - 60px);
     }

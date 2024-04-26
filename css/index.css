@@ -128,16 +128,16 @@ body{
 @media (max-width: 750px) {
     .conteneur-cadres {
         margin-left: 6%;
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
     .cadre-blanc {
         max-width: calc(100% - 60px);
     }
     .cadre-blanc2 img {
-
         object-fit: cover;
-    
     }
     .cadre-blanc2 {
         margin-left: 180px;
+        flex-direction: column; /* Ajout de flex-direction: column; */
     }
 }

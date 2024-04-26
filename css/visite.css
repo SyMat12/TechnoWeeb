@@ -135,10 +135,10 @@ h1:hover{
     color:red;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     main h1 {
-        margin-left: 5%; 
-        width: 90%; 
+        margin-left: 5%;
+        width: 90%;
     }
     .timeline-item {
         flex-direction: column;
