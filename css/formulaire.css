@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 main {
@@ -85,10 +86,10 @@ footer {
     width: 100%;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
+
     body {
-        background-size: auto;
+        background-size: 100% 100%; 
     }
 
     main {
@@ -102,6 +103,4 @@ footer {
         max-width: 400px;
         margin: auto;
     }
-
-    
 }
