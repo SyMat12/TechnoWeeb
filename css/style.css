@@ -85,7 +85,7 @@ footer div {
 
 @media (max-width: 750px) {
     header {
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
         align-items: center;
     }
 
@@ -95,7 +95,7 @@ footer div {
     }
 
     nav {
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
         align-items: center;
     }
 

@@ -88,7 +88,7 @@ footer {
 
 @media (max-width: 750px) {
     body {
-        background-size: 100% 100%; /* Ajustement de la taille de l'arrière-plan */
+        background-size: 100% 100%;
     }
 
     main {
@@ -101,7 +101,7 @@ footer {
         width: 100%;
         max-width: 400px;
         margin: auto;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
 }
 

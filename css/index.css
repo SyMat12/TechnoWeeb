@@ -23,16 +23,16 @@ body {
     backdrop-filter: blur(5px);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10vh; /* Utiliser des valeurs relatives */
-    margin-bottom: 5vh; /* Utiliser des valeurs relatives */
-    gap: 5vw; /* Utiliser des valeurs relatives */
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    gap: 5vw;
     border-radius: 5px;
 }
 
 .cadre-blanc {
     background-color: #dbdbdb;
-    margin: 5vh auto; /* Utiliser des valeurs relatives */
-    padding: 2vw; /* Utiliser des valeurs relatives */
+    margin: 5vh auto;
+    padding: 2vw;
     text-align: center;
     color: #fff;
     border: 1px solid #f89494;
@@ -47,23 +47,23 @@ body {
 
 .conteneur-cadres {
     display: flex;
-    margin: 10vh auto; /* Utiliser des valeurs relatives */
-    gap: 5vw; /* Utiliser des valeurs relatives */
+    margin: 10vh auto;
+    gap: 5vw;
     flex-wrap: wrap;
 }
 
 .cadre-blanc2 {
     overflow: hidden;
     background-color: #6e6e6e;
-    margin: 5vh auto; /* Utiliser des valeurs relatives */
+    margin: 5vh auto;
     border: 1px solid #f89494;
     border-radius: 20px;
     max-width: 300px;
-    height: 25vh; /* Utiliser des valeurs relatives */
+    height: 25vh;
     text-align: center;
     color: #c1c1c1;
-    font-size: 3vw; /* Utiliser des valeurs relatives */
-    line-height: 1.2; /* Utiliser des valeurs relatives */
+    font-size: 3vw;
+    line-height: 1.2;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
     position: relative;
@@ -80,17 +80,18 @@ body {
     color: white;
     text-align: center;
     opacity: 0;
-    margin-top: -15vh; /* Utiliser des valeurs relatives */
+    margin-top: -18vh;
     margin-left: 5px;
     word-wrap: break-word;
+    font-size: 20px;
 }
 
 .cadre-blanc2:hover {
     color: red;
-    font-size: 3vw; /* Utiliser des valeurs relatives */
+    font-size: 3vw;
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
-    box-shadow: 1vw 1vw 1vw #333; /* Utiliser des valeurs relatives */
+    box-shadow: 1vw 1vw 1vw #333;
 }
 
 .cadre-blanc2:hover img {
@@ -105,17 +106,17 @@ body {
 
 @media (max-width: 750px) {
     .conteneur-cadres {
-        margin-left: 6vw; /* Utiliser des valeurs relatives */
+        margin-left: 6vw;
         flex-direction: column;
     }
     .cadre-blanc {
-        max-width: calc(100% - 5vw); /* Utiliser des valeurs relatives */
+        max-width: calc(100% - 5vw);
     }
     .cadre-blanc2 img {
         object-fit: cover;
     }
     .cadre-blanc2 {
-        margin-left: 12vw; /* Utiliser des valeurs relatives */
-        margin-right: 12vw; /* Utiliser des valeurs relatives */
+        margin-left: 12vw;
+        margin-right: 12vw;
     }
 }

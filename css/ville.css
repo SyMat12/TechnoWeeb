@@ -94,7 +94,7 @@ body{
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* Ratio 16:9 pour un conteneur 16:9 */
+    padding-top: 56.25%;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -138,14 +138,14 @@ body{
         max-width: 90%;
     }
     .conteneur-cadres-donne {
-        margin: 0 auto; /* Ajout de cette règle pour centrer les cadres-donneés */
+        margin: 0 auto;
         width: 90%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Ajout de cette règle pour centrer les cadres-donneés */
+        justify-content: center;
     }
     .cadre-donne {
-        width: calc(50% - 20px); /* Deux cadres par ligne */
+        width: calc(50% - 20px);
         margin: 20px;
     }
     .cadre-localisation {
@@ -166,25 +166,25 @@ body{
     .cadre-blanc {
         width: calc(100% - 0px);
         height: auto;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
     .conteneur-cadres-donne {
         margin-left: 0;
         width: 100%;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
 
     .cadre-donne {
         width: calc(100% - 60px);
         margin: 20px 30px;
         height: auto;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
     
     .cadre-localisation {
         margin-left: 40px;
         margin-right: 40px;
-        flex-direction: column; /* Ajout de flex-direction: column; */
+        flex-direction: column;
     }
     iframe {
         height: 400px;

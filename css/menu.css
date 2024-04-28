@@ -46,8 +46,8 @@ body{
 .cadre-blanc2 img {
 
     margin: auto;
-    width: 100%; /* Tu peux ajuster cette valeur selon tes besoins */
-    height: 50%; /* Pour maintenir le ratio d'aspect */
+    width: 100%;
+    height: 50%;
     border-radius: 20px;
     object-fit: cover;
 
