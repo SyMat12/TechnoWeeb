@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
 body * {
     transition: 0.5s;
+    font-family: 'Montserrat' !important;
 }
 
 .wrapper{

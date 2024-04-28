@@ -14,7 +14,7 @@ body {
 
 .cadre-blanc img {
     max-width: 75px;
-    border-radius: 90px;
+    border-radius: 50%;
     margin-top: 10px;
 }
 
@@ -23,16 +23,16 @@ body {
     backdrop-filter: blur(5px);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 200px;
-    margin-bottom: 30px;
-    gap: 15px;
+    margin-top: 10vh; /* Utiliser des valeurs relatives */
+    margin-bottom: 5vh; /* Utiliser des valeurs relatives */
+    gap: 5vw; /* Utiliser des valeurs relatives */
     border-radius: 5px;
 }
 
 .cadre-blanc {
     background-color: #dbdbdb;
-    margin: 35px;
-    padding: 10px;
+    margin: 5vh auto; /* Utiliser des valeurs relatives */
+    padding: 2vw; /* Utiliser des valeurs relatives */
     text-align: center;
     color: #fff;
     border: 1px solid #f89494;
@@ -47,26 +47,23 @@ body {
 
 .conteneur-cadres {
     display: flex;
-    margin-top: 200px;
-    margin-bottom: 30px;
-    margin-left: 20%;
-    gap: 20px;
+    margin: 10vh auto; /* Utiliser des valeurs relatives */
+    gap: 5vw; /* Utiliser des valeurs relatives */
     flex-wrap: wrap;
 }
 
 .cadre-blanc2 {
     overflow: hidden;
     background-color: #6e6e6e;
-    margin: 30px;
+    margin: 5vh auto; /* Utiliser des valeurs relatives */
     border: 1px solid #f89494;
     border-radius: 20px;
-    margin-bottom: 20px;
     max-width: 300px;
-    height: 220px;
+    height: 25vh; /* Utiliser des valeurs relatives */
     text-align: center;
     color: #c1c1c1;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 3vw; /* Utiliser des valeurs relatives */
+    line-height: 1.2; /* Utiliser des valeurs relatives */
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
     position: relative;
@@ -74,8 +71,8 @@ body {
 }
 
 .cadre-blanc2 img {
-    margin: auto;
     width: 100%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -83,42 +80,42 @@ body {
     color: white;
     text-align: center;
     opacity: 0;
-    margin-top: -130px;
+    margin-top: -15vh; /* Utiliser des valeurs relatives */
     margin-left: 5px;
     word-wrap: break-word;
 }
 
 .cadre-blanc2:hover {
     color: red;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 3vw; /* Utiliser des valeurs relatives */
     text-decoration: none;
     text-shadow: 1px 1px 1px #333;
-    box-shadow: 5px 5px 5px #333;
+    box-shadow: 1vw 1vw 1vw #333; /* Utiliser des valeurs relatives */
 }
 
 .cadre-blanc2:hover img {
-    opacity: 50%;
+    opacity: 0.5;
     background-color: #333;
 }
 
 .cadre-blanc2:hover p {
-    transition: 2s;
+    transition: opacity 2s;
     opacity: 1;
 }
 
 @media (max-width: 750px) {
     .conteneur-cadres {
-        margin-left: 6%;
+        margin-left: 6vw; /* Utiliser des valeurs relatives */
         flex-direction: column;
     }
     .cadre-blanc {
-        max-width: calc(100% - 60px);
+        max-width: calc(100% - 5vw); /* Utiliser des valeurs relatives */
     }
     .cadre-blanc2 img {
         object-fit: cover;
     }
     .cadre-blanc2 {
-        margin-left: 180px;
+        margin-left: 12vw; /* Utiliser des valeurs relatives */
+        margin-right: 12vw; /* Utiliser des valeurs relatives */
     }
 }
